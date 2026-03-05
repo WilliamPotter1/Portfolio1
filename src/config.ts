@@ -60,12 +60,12 @@ export const WORK_EXPERIENCE = [
 
 export const DESCRIPTION = `Software engineer mainly focused on frontend with about ${EXPERIENCE_YEARS} years of experience who always pays attention to details and thinks about the end users of a product.`;
 
-export const GITHUB_USERNAME = 'longngo0924';
+export const GITHUB_USERNAME = 'bankmotion';
 export const GITHUB_URL = `https://github.com/${GITHUB_USERNAME}`;
 
-export const TELEGRAM_USERNAME = 'longngo09242';
+export const TELEGRAM_USERNAME = 'diegobastos0';
 export const TELEGRAM_URL = `https://t.me/${TELEGRAM_USERNAME}`;
-export const DISCORD_USERNAME = "longngo09242";
+export const DISCORD_USERNAME = "diegobastos0";
 export const DISCORD_URL = `https://discord.com/users/1425863578128482386`;
 
 export const STACK = [
