@@ -22,6 +22,8 @@ import {
   STACK,
   DISCORD_URL,
   DISCORD_USERNAME,
+  LINKEDIN_USERNAME,
+  LINKEDIN_URL,
   TELEGRAM_URL,
   TELEGRAM_USERNAME,
   TIME_ZONE,
@@ -139,6 +141,18 @@ export default function AboutMe() {
                   variant="underline"
                 >
                   {DISCORD_USERNAME}
+                </PropertyValue>
+              </Property>
+
+              <Property>
+                <PropertyLabel>LinkedIn</PropertyLabel>
+                <PropertyValue
+                  as={Link}
+                  href={LINKEDIN_URL}
+                  target="_blank"
+                  variant="underline"
+                >
+                  {LINKEDIN_USERNAME}
                 </PropertyValue>
               </Property>
             </div>

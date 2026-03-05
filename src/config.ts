@@ -7,9 +7,9 @@ import instinctoolsLogo from '~/public/images/Instinctools-logo.jpg';
 
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
 
-export const FULL_NAME = 'Long Ngo';
+export const FULL_NAME = 'DIEGO ANDRES BASTOS CACUA';
 
-export const EMAIL = 'work888man@gmail.com';
+export const EMAIL = 'ollydev245@gmail.com';
 
 export const RESUME = `${SITE_URL}/resume.pdf`;
 
@@ -67,6 +67,8 @@ export const TELEGRAM_USERNAME = 'diegobastos0';
 export const TELEGRAM_URL = `https://t.me/${TELEGRAM_USERNAME}`;
 export const DISCORD_USERNAME = "diegobastos0";
 export const DISCORD_URL = `https://discord.com/users/1425863578128482386`;
+export const LINKEDIN_USERNAME = "diego-andres-bastos-cacua-743383376";
+export const LINKEDIN_URL = `https://www.linkedin.com/in/${LINKEDIN_USERNAME}`;
 
 export const STACK = [
   'TypeScript',
@@ -105,7 +107,7 @@ export const STACK = [
 
 export const INTERESTS = ['Chess', 'Guitar', 'Pets', 'Dancing', 'Traveling'];
 
-export const TIME_ZONE = 'UTC/GMT + 7';
+export const TIME_ZONE = 'EST';
 
 export const THEME = {
   light: 'light',
