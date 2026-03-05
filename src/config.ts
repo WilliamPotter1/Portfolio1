@@ -9,7 +9,7 @@ export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:30
 
 export const FULL_NAME = 'DIEGO ANDRES BASTOS CACUA';
 
-export const EMAIL = 'ollydev245@gmail.com';
+export const EMAIL = 'diego2457bc@gmail.com';
 
 export const RESUME = `${SITE_URL}/resume.pdf`;
 
