@@ -1,0 +1,89 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+  :root {
+    /*-- Colors --*/
+
+    color-scheme: dark;
+
+    /* Plain */
+    --color-black: 0 0 0;
+    --color-white: 255 255 255;
+
+    /* Base */
+    /* Slightly lifted from pure black so the page doesn't feel "flat" */
+    --color-base-bg: 10 10 10;
+    --color-base-text-strong: var(--color-white);
+    --color-base-text-light: 229 229 229;
+    --color-base-text-weak: 212 212 212;
+    --color-base-text-subtle: 163 163 163;
+    --color-base-border: 64 64 64;
+    --color-base-surface: 23 23 23;
+    --color-base-surface-text-strong: var(--color-base-text-strong);
+    --color-base-surface-text-weak: var(--color-base-text-weak);
+
+    /* Primary */
+    --color-primary-text: var(--color-base-text-strong);
+    --color-primary-border: var(--color-base-text-strong);
+    --color-primary-surface: var(--color-base-text-strong);
+    --color-primary-surface-text-strong: var(--color-base-bg);
+  }
+
+  .light {
+    /*-- Colors --*/
+
+    color-scheme: light;
+
+    /* Base */
+    /* Slightly softened from pure white */
+    --color-base-bg: 250 250 250;
+    --color-base-text-strong: var(--color-black);
+    --color-base-text-light: 38 38 38;
+    --color-base-text-weak: 64 64 64;
+    --color-base-text-subtle: 82 82 82;
+    --color-base-border: 212 212 212;
+    --color-base-surface: 245 245 245;
+    --color-base-surface-text-strong: var(--color-base-text-strong);
+    --color-base-surface-text-weak: var(--color-base-text-weak);
+
+    /* Primary */
+    --color-primary-text: var(--color-base-text-strong);
+    --color-primary-border: var(--color-base-text-strong);
+    --color-primary-surface: var(--color-base-text-strong);
+    --color-primary-surface-text-strong: var(--color-base-bg);
+  }
+
+  body {
+    /*
+     Subtle gradient adds depth so the full-page background doesn't feel harsh.
+     Uses semantic tokens so it automatically adapts to light/dark theme.
+    */
+    background-color: theme('colors.base.bg');
+    background-image:
+      radial-gradient(
+        1000px circle at 10% -10%,
+        rgb(var(--color-base-surface) / 0.55),
+        transparent 55%
+      ),
+      radial-gradient(
+        900px circle at 90% 0%,
+        rgb(var(--color-base-border) / 0.25),
+        transparent 55%
+      );
+    background-attachment: fixed;
+    color: theme('colors.base.text-strong');
+  }
+}
+
+@layer utilities {
+  .focus-outline {
+    outline: 2px solid transparent;
+    outline-offset: 4px;
+  }
+
+  .focus-outline:focus-visible {
+    outline-color: theme('colors.base.text-strong');
+  }
+}
