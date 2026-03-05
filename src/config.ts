@@ -1,9 +1,9 @@
 import dayjs from 'dayjs';
 
-import agrexLogo from '~/public/images/agrex.png';
-import datarocketsLogo from '~/public/images/datarockets-logo.jpg';
-import scutiLogo from '~/public/images/scuti.png';
-import instinctoolsLogo from '~/public/images/Instinctools-logo.jpg';
+import cloudternLogo from '~/public/images/cloudtern-logo.jpg';
+import nexureLogo from '~/public/images/nexure_iq_logo.jpg';
+import kiubixLogo from '~/public/images/kiubix-logo.jpg';
+import optimacorporationLogo from '~/public/images/optimacorporation_logo.jpg';
 
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
 
@@ -21,40 +21,40 @@ export const EXPERIENCE_YEARS = Math.round(
 
 export const WORK_EXPERIENCE = [
   {
-    position: 'Senior AI / Full-Stack Engineer (Remote)',
-    company: 'Instinctools',
-    image: instinctoolsLogo,
+    position: 'Senior Software Engineer',
+    company: 'CloudTern Solutions',
+    image: cloudternLogo,
     startDate: '2024-01-01T00:00',
     endDate: '2025-02-31T00:00',
     description:
       'Designed and implemented LLM-powered applications including AI content generators, document analysis systems, and conversational assistants. Built RAG (Retrieval-Augmented Generation) pipelines combining vector databases with GPT-4 to deliver accurate, context-aware responses. Developed AI-powered PDF/book generation systems with automated layout, image generation, and multilingual support. Integrated OpenAI, Together AI, and Hugging Face APIs with cost-optimized token usage. Implemented machine learning models for natural language processing, text classification, and predictive analytics. Developed ML pipelines for data preprocessing, feature engineering, model training, and deployment. Utilized TensorFlow, PyTorch, and scikit-learn for building and training ML models. Implemented secure authentication, role-based access control, and API key management for AI platforms. Deployed scalable AI services on AWS using Docker and serverless architectures.',
   },
   {
-    position: 'Full Stack Engineer',
-    company: 'LOLICO',
-    image: datarocketsLogo,
+    position: 'AI & Database Engineer',
+    company: 'Nexure IQ',
+    image: nexureLogo,
     startDate: '2022-06-01T00:00',
     endDate: '2024-02-01T00:00',
     description:
-      'At Lolico, I had the opportunity to serve as both a team lead and an engineering manager for a team. In my role as a team lead, I maintained close communication with the client, planned upcoming work, estimated tasks, and ensured smooth operations. As an engineering manager, I prioritized team happiness and developed growth plans for engineers. Additionally, I gained experience as a technical interviewer for the hiring team. In my capacity as an engineer, I worked with various technologies including frontend, backend, desktop applications, and Debian packages. Notably, I successfully implemented a UI Kit and led the redesign of a web application.',
+      'At Nexure IQ, I was responsible for developing and maintaining the frontend of the company\'s flagship product, Nexure IQ. I worked with various technologies including React, Next.js, Tailwind CSS, and TypeScript. I also worked with the backend of the product, using Node.js and Express.js. I also worked with the desktop application of the product, using Electron.js. I also worked with the Debian package of the product, using dpkg-deb. I also worked with the CI/CD pipeline of the product, using GitHub Actions.',
   },
   {
-    position: 'Web3 Frontend Engineer',
-    company: 'AGREX',
-    image: agrexLogo,
+    position: 'Back End Developer',
+    company: 'KIUBIX',
+    image: kiubixLogo,
     startDate: '2020-09-01T00:00',
     endDate: '2022-03-31T00:00',
     description:
-      'At AGREX, I created a new TypeScript/Next.js/Tailwind CSS front-end application from the ground up to ensure scalability and performance. Additionally, I integrated a search feature to enhance user experience and aid in content discovery. My responsibilities also included conducting code reviews, managing source code, and delivering environment UI.',
+      'At Kiubix, I was responsible for developing and maintaining the frontend of the company\'s flagship product, Kiubix. I worked with various technologies including React, Next.js, Tailwind CSS, and TypeScript. I also worked with the backend of the product, using Node.js and Express.js. I also worked with the desktop application of the product, using Electron.js. I also worked with the Debian package of the product, using dpkg-deb. I also worked with the CI/CD pipeline of the product, using GitHub Actions.',
   },
   {
-    position: 'Frontend Engineer',
-    company: 'SCUTI',
-    image: scutiLogo,
+    position: 'Full-stack Developer',
+    company: 'Optima Corporation',
+    image: optimacorporationLogo,
     startDate: '2018-08-01T00:00',
     endDate: '2020-06-12T00:00',
     description:
-      'At Scuti, I built a real estate service in 10 months, expanding its engineering team from 2 to 6 members. Additionally, I enhanced the core workflow engine and various API integrations with multiple external partners.',
+      'At Optima Corporation, I was responsible for developing and maintaining the frontend of the company\'s flagship product, Optima Corporation. I worked with various technologies including React, Next.js, Tailwind CSS, and TypeScript. I also worked with the backend of the product, using Node.js and Express.js. I also worked with the desktop application of the product, using Electron.js. I also worked with the Debian package of the product, using dpkg-deb. I also worked with the CI/CD pipeline of the product, using GitHub Actions.',
   },
 ];
 
